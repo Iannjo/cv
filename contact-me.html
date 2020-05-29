@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+  <style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 40%;  /* The width is the width of the web page */
+       }
+    </style>
+
+</head>
+
+<body>
+  <h3>Contacts</h3>
+  <p><span>Work: </span>+46 8 - 407 23 00</p>
+  <p><span>Home:</span> +46 8 - 407 23 05</p>
+  <p><span>Email:</span>info@dokers.se</p>
+  <p><span>Adress:</span>North Point</p>
+  <p>Gröna gången 1, Box 1616</p>
+  <p>111 86 Stockholm</p>
+
+  <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBF6MkkNOzp0bDv0-9tMDCfYZ6VV4nKbhU&callback=initMap">
+    </script>
+</body>
+<form action="">
+
+  <label for="name">Enter your name</label>
+  <input type="text" name="name" id="name">
+  <label for="email">Enter your email:</label>
+  <input type="email" name="email" id="email">
+  <p><label for="password">Enter your password:</label></p>
+  <p><input type="password" name="password" id="password"></p>
+  <input type="date" name="date">
+  <input type="range" name="volume" id="volume" min="0" max="100">
+  <input type="file" name="fileA" id="file">
+
+  <input type="submit" name="submit" id="userloginform" value="Login">
+</form>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN Documentation</a>
+<a href="file:///home/ian/Downloads/ian-holdings.pdf"  target="_blank">My Holdings</a>
+
+
+</html>
