@@ -11,7 +11,7 @@ h1{
 h3{
   color:#45b29a;
   font-size: 1.5em;
-  font-weight: 700;
+  font-weight: 300;
   margin-bottom: 10px;
 }
 
@@ -76,15 +76,18 @@ html {
 
 }
 .footer{
-  height: 150px;
+  height: 50px;
   max-width: 100%;
   background-color: #679b9b;
   margin-right:auto;
   margin-left: auto;
+  margin-top: 30px;
+  padding-top: 30px;
   
 }
 h3:hover{
   color:#dea1e6;
+  
 }
 /*h1:hover{
   color:blue;
