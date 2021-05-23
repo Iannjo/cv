@@ -1,0 +1,101 @@
+body {
+  background-color: #F3EFE0;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+h1{
+  color:#66BFBF;
+  font-size: 3.8em;
+  font-weight: 400;
+}
+h3{
+  color:#45b29a;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+hr {
+  border-color: #204051;
+  border-style: none;
+  border-top-style:solid;
+  border-width: 2px;
+  width: 85%;
+}
+
+img {
+  max-height: 400px;
+  max-width: 400px;
+}
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 60%;
+  /* The width is the width of the web page */
+}
+
+.main {
+  /*background-color:#edf492;*/
+}
+
+a:hover {
+  background-color: #edf492;
+  color: #204051;
+}
+
+a:active {
+  color: #3b6978;
+}
+a:visited{
+  color:#204051;
+}
+
+html {
+  background-color: #dae1e7;
+}
+
+.masthead-wrap {
+  max-width: 970px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container {
+  max-width: 970px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header{
+  max-height:50%;
+  max-width: 100%;
+  background-color: #679b9b;
+
+}
+.footer{
+  height: 150px;
+  max-width: 100%;
+  background-color: #679b9b;
+  margin-right:auto;
+  margin-left: auto;
+  
+}
+h3:hover{
+  color:#dea1e6;
+}
+/*h1:hover{
+  color:blue;
+  font-size: 3em;
+}*/
+.heading:hover{
+    font-size: 4.8em;
+    font-style:normal;
+    font-weight: 500;
+    color:blue;
+}
+.heading{
+  color:#204051;
+}

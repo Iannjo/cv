@@ -1,0 +1,29 @@
+h1{
+  font-family:Oxygen, sans-serif;
+  font-size: 2.8em;
+  font-style:normal;
+  font-weight: 500;
+
+}
+img{
+  background-color: #E3cfcf;
+}
+p{
+
+  font-family: Oxygen;
+
+}
+.bacon {
+  background-color: green;
+}
+
+#heading{
+  color:#204051;
+}
+
+a:hover{
+  color:gold;
+}
+h1:hover{
+  color:red;
+}
